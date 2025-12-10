@@ -1,8 +1,4 @@
-# Arduino-LED-Blink
-A simple Arduino project that blinks an LED on pin 13. Perfect for beginners learning Arduino basics. Includes hardware schematic and code documentation.
-
-## Project Overview
-This is a beginner-friendly Arduino project that demonstrates the basics of controlling digital output pins. The LED blinks on and off at regular intervals using simple code.
+This is a simple Arduino project that blinks an LED on pin 13. Includes schematic and code documentation.
 
 ## Hardware Requirements
 - Arduino Board (Uno, Nano, or Mega)
@@ -20,12 +16,6 @@ Arduino Pin 13 --|--- LED Anode
                  GND (Ground)
 ```
 
-## Software Setup
-1. Download the Arduino IDE from https://www.arduino.cc/en/software
-2. Connect your Arduino board to your computer via USB
-3. Select the correct board and port in the Arduino IDE
-4. Upload the sketch to your Arduino
-
 ## Code
 The main code blinks the LED with a 1-second interval:
 ```cpp
@@ -40,15 +30,3 @@ void loop() {
   delay(1000);
 }
 ```
-
-## Features
-- Simple and easy to understand
-- Perfect for Arduino beginners
-- Uses only built-in LED (no external circuit required)
-- Great starting point for learning Arduino
-
-## Author
-Created as a learning project for Electronics & Instrumentation Engineering
-
-## License
-MIT License - feel free to use and modify
